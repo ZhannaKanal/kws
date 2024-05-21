@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col">
-    <div class="relative text-[white] uppercase">
+  <div class="flex flex-col min-h-[100vh]">
+    <header class="relative text-[white] uppercase">
       <img
         class="absolute z-1 w-full min-h-[100vh] h-full"
         src="~/assets/images/main.png"
@@ -15,11 +15,21 @@
           <div
             class="max-w-[1300px] w-full mx-auto px-[210px] gap-[80px] flex justify-between py-2 text-[16px] text-[white] font-light font-[]"
           >
-            <nuxt-link to="/about"><p class="hover:text-[#7F7F7F]">О нас</p></nuxt-link>
-            <nuxt-link to="/service"><p class="hover:text-[#7F7F7F]">Услуги</p></nuxt-link>
-            <nuxt-link to="/brand"><p class="hover:text-[#7F7F7F]">Бренды</p></nuxt-link>
-            <nuxt-link to="/event"><p class="hover:text-[#7F7F7F]">События</p></nuxt-link>
-            <nuxt-link to="/contact"><p class="hover:text-[#7F7F7F]">Контакты</p></nuxt-link>
+            <nuxt-link to="/about"
+              ><p class="hover:text-[#7F7F7F]">О нас</p></nuxt-link
+            >
+            <nuxt-link to="/service"
+              ><p class="hover:text-[#7F7F7F]">Услуги</p></nuxt-link
+            >
+            <nuxt-link to="/brand"
+              ><p class="hover:text-[#7F7F7F]">Бренды</p></nuxt-link
+            >
+            <nuxt-link to="/event"
+              ><p class="hover:text-[#7F7F7F]">События</p></nuxt-link
+            >
+            <nuxt-link to="/contact"
+              ><p class="hover:text-[#7F7F7F]">Контакты</p></nuxt-link
+            >
             <div class="flex gap-2 items-center hover:text-[#7F7F7F]">
               <p>RU</p>
               <img
@@ -39,91 +49,58 @@
           напитков на территории Казахстана.
         </p>
       </div>
-    </div>
-    <div class="">
-      <div class="text-[#010101]">
-        <div class="flex">
-          <div class="">
-            <div class="relative">
-              <img
-                class="absolute z-2"
-                src="~/assets/images/first_first.png"
-                draggable="false"
-                alt=""
-              />
-              <div class="absolute z-5">
-                <img
-                  src="~/assets/images/first_second.png"
-                  draggable="false"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="relative top-[300px]">
-              <p class="text-[30px] font-light font-[]">БРЕНДЫ</p>
-              <p class="text-[#A1A1A1]">№1 по импорту тихих и игристых вин</p>
-              <p>
-                В коллекции KWS более 150 производителей, являющихся лидерами в
-                своей сфере. Мы передаем наследие каждого бренда, уважая и
-                поддерживая высокое качество их продукции.
-              </p>
-              <button
-                class="px-[110px] py-[15px] border-[1px] border-solid border-[#C1C1C1] rounded-[2px] font-light hover:bg-[#010101] hover:border-[#010101] hover:text-[white] duration-200"
-                type="button"
-              >
-                Ознакомиться
-              </button>
-            </div>
-            <div class="relative bottom-0">
-              <img
-                src="~/assets/images/third_line.png"
-                draggable="false"
-                alt=""
-              />
+    </header>
+    <main class="flex-[1_1_auto]">
+      <div class="grid grid-cols-2 gap-[50px]">
+        <div class="relative pt-[100px] flex-[1_1_auto] flex justify-end">
+          <div
+            class="absolute w-full bg-[#CCAD7B] max-h-[529px] h-full right-0 top-0 z-[-1]"
+          ></div>
+          <div class="max-w-[600px] w-full">
+            <img src="~/assets/images/first_second.png" alt="" />
+            <p class="text-[30px] py-5 font-light font-[]">БРЕНДЫ</p>
+            <p class="text-[#A1A1A1] py-4">
+              №1 по импорту тихих и игристых вин
+            </p>
+            <p>
+              В коллекции KWS более 150 производителей, являющихся лидерами в
+              своей сфере. Мы передаем наследие каждого бренда, уважая и
+              поддерживая высокое качество их продукции.
+            </p>
+            <button
+              class="px-[110px] my-[50px] py-[15px] border-[1px] border-solid border-[#C1C1C1] rounded-[2px] font-light hover:bg-[#010101] hover:border-[#010101] hover:text-[white] duration-200"
+              type="button"
+            >
+              Ознакомиться
+            </button>
+            <div class="flex gap-4 max-h-[64px] h-full bg-[white]">
+              <div class="w-[16px] bg-[#CCAD7B]"></div>
+              <div class="w-[32px] bg-[#CCAD7B]"></div>
+              <div class="w-[40px] bg-[#CCAD7B]"></div>
+              <div class="w-[56px] bg-[#CCAD7B]"></div>
+              <div class="flex-[1_1_auto] bg-[#CCAD7B]"></div>
             </div>
           </div>
-          <div>
-            <div class="relative">
-              <div class="relative z-2">
-                <img
-                  class="right-0"
-                  src="~assets/images/second_1_1.png"
-                  draggable="false"
-                  alt=""
-                />
-                <img
-                  src="~assets/images/second_1_2.png"
-                  draggable="false"
-                  alt=""
-                />
-                <img
-                  src="~assets/images/second_1_3.png"
-                  draggable="false"
-                  alt=""
-                />
-                <img
-                  class="right-0"
-                  src="~assets/images/second_1_4.png"
-                  draggable="false"
-                  alt=""
-                />
-                <p
-                  class="absolute bottom-0 right-0 text-[30px] font-light font-[]"
-                >
-                  О КОМПАНИИ
-                </p>
-              </div>
-              <div class="absolute bottom-10 z-5">
-                <img
-                  src="~/assets/images/second_second.png"
-                  draggable="false"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="text-right">
-              <p class="text-[#A1A1A1]">18 лет на рынке Казахстана</p>
-              <p>
+        </div>
+        <div class="relative flex-[1_1_auto]">
+          <div
+            class="absolute flex flex-col max-h-max w-[calc(100%-100px)] left-[100px] top-[85px] gap-4"
+          >
+            <div class="h-[16px] bg-[#CCAD7B]"></div>
+            <div class="h-[32px] bg-[#CCAD7B]"></div>
+            <div class="h-[60px] bg-[#C49955]"></div>
+            <div class="h-[534px] bg-[#CCAD7B]"></div>
+          </div>
+          <div class="relative z-2 max-w-[600px] w-full pt-[297px]">
+            <img
+              class="h-[400px]"
+              src="~/assets/images/second_second.png"
+              alt=""
+            />
+            <div class="flex flex-col items-end">
+              <p class="text-[30px] font-light py-5">О КОМПАНИИ</p>
+              <p class="text-[#A1A1A1] py-5">18 лет на рынке Казахстана</p>
+              <p class="max-w-[490px] text-right">
                 Компания KWS предлагает своим партнерам, частным клиентам и
                 любителям вина богатый ассортимент спиртных напитков от
                 престижных мировых брендов, а также лучшие вина от исторически
@@ -132,162 +109,9 @@
             </div>
           </div>
         </div>
-        <!-- <div class="flex">
-          <div class="">
-            <div class="relative">
-              <p class="text-[30px] font-light font-[]">Философия компании</p>
-              <p class="text-[#A1A1A1]">Тандем вина и модного бренда</p>
-              <p>
-                Наша работа связана с уникальными продуктами. Вина и спиртные
-                напитки ассоциируются с праздником, эмоциями, весельем и
-                радостью.
-                <br />Поэтому мы стремимся к совершенству, гарантируя высокое
-                качество и эксклюзивность нашей продукции.
-              </p>
-              <button
-                class="px-[110px] py-[15px] border-[1px] border-solid border-[#C1C1C1] rounded-[2px] font-light hover:bg-[#010101] hover:border-[#010101] hover:text-[white] duration-200"
-                type="button"
-              >
-                Ознакомиться
-              </button>
-            </div>
-            <div class="relative">
-              <img
-                class="absolute z-2"
-                src="~/assets/images/third_first.png"
-                draggable="false"
-                alt=""
-              />
-
-              <img
-                class="absolute z-5 ml-12"
-                src="~/assets/images/third_second.png"
-                draggable="false"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="flex flex-col">
-            <div class="relative">
-              <button
-                class="px-[110px] py-[15px] border-[1px] border-solid border-[#C1C1C1] rounded-[2px] font-light hover:bg-[#010101] hover:border-[#010101] hover:text-[white] duration-200"
-                type="button"
-              >
-                Ознакомиться
-              </button>
-            </div>
-            <div class="relative">
-              <img
-                class="absolute z-2"
-                src="~/assets/images/fourth_first.png"
-                draggable="false"
-                alt=""
-              />
-              <div class="absolute z-5 mr-12">
-                <img
-                  src="~/assets/images/fourth_second.png"
-                  draggable="false"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="relative">
-              <p class="text-[30px] font-light font-[]">КУЛЬТУРА ВИНА</p>
-              <p class="text-[#A1A1A1]">Тандем вина и модного бренда</p>
-              <p>
-                Наша миссия - развитие винной культуры Казахстана и создание
-                новых трендов.
-              </p>
-              <button
-                class="px-[110px] py-[15px] border-[1px] border-solid border-[#C1C1C1] rounded-[2px] font-light hover:bg-[#010101] hover:border-[#010101] hover:text-[white] duration-200"
-                type="button"
-              >
-                Ознакомиться
-              </button>
-            </div>
-          </div>
-        </div> -->
       </div>
-      <!-- <div
-        class="max-w-[1300px] w-full mx-auto my-10 flex items-center justify-between gap-[100px] font-[]"
-      >
-        <p class="text-[30px] font-light">СОБЫТИЯ</p>
-        <img src="~/assets/images/long_line.png" draggable="false" alt="" />
-      </div>
-      <div class="flex text-[#010101] text-[16px] font-[]">
-        <div>
-          <img src="~/assets/images/image_13.png" draggable="false" alt="" />
-          <div>
-            <img
-              src="~/assets/images/threediffline.png"
-              draggable="false"
-              alt=""
-            />
-            <p>Dom Perignon x Lady Gaga</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="~/assets/images/image_14.png" draggable="false" alt="" />
-            <div>
-              <img src="~/assets/images/oneline.png" draggable="false" alt="" />
-              <p>Легендарные аксессуары Riedel теперь в Казахстане!</p>
-            </div>
-          </div>
-          <div>
-            <img src="~/assets/images/image_15.png" draggable="false" alt="" />
-            <div>
-              <img src="~/assets/images/oneline.png" draggable="false" alt="" />
-              <p>Устали от Кавы? Новая категория игристых вин Испании</p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <img src="~/assets/images/image_17.png" draggable="false" alt="" />
-          <div>
-            <img
-              src="~/assets/images/threediffline.png"
-              draggable="false"
-              alt=""
-            />
-            <p>AIN Asia Awards</p>
-          </div>
-        </div>
-        <div>
-          <img src="~/assets/images/image_16.png" draggable="false" alt="" />
-          <div>
-            <img
-              src="~/assets/images/threediffline.png"
-              draggable="false"
-              alt=""
-            />
-            <p>Новинка Винокурни Ardbeg</p>
-          </div>
-        </div>
-      </div>
-      <div class="my-[100px]">
-        <div
-          class="max-w-[1300px] w-full max-h-[80px] h-full mx-auto px-6 flex justify-between bg-[#C49955] text-[16px] text-[#FFFFFF]"
-        >
-          <img src="~/assets/images/threeline.png" draggable="false" alt="" />
-          <div class="flex justify-between items-center gap-12">
-            <img src="~/assets/images/brut.png" draggable="false" alt="" />
-            <p class="items-center">
-              BRUT - это проект крупнейшей дистрибьюторской<br />
-              компании Kazakhstan Wines & Spirits.
-            </p>
-            <button
-              class="px-[120px] py-[15px] border-[1px] border-solid border-[#FFFFFF] rounded-[2px] font-light hover:bg-[white] hover:text-[#C49955] duration-200"
-              type="button"
-            >
-              Перейти
-            </button>
-          </div>
-          <img src="~/assets/images/threeline.png" draggable="false" alt="" />
-        </div>
-      </div> -->
-    </div>
-    <div class="bg-[#222222] font-[] text-[FFFFFF] text-[16px]">
+    </main>
+    <!-- <footer class="bg-[#222222] text-[16px]">
       <div class="flex justify-center py-10">
         <img src="~/assets/images/KWS.png" draggable="false" alt="" />
       </div>
@@ -308,6 +132,6 @@
         <p class="text-[#585858]">Все права защищены 2021</p>
         <p class="text-[#585858]">Разработано Digital Agency Nidge</p>
       </div>
-    </div>
+    </footer> -->
   </div>
 </template>
