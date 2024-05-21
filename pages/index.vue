@@ -168,12 +168,53 @@
         class="max-w-[1300px] w-full mx-auto my-8 px-6 flex gap-[100px] items-center"
       >
         <p class="text-[30px] font-light">СОБЫТИЯ</p>
-        <div class="bg-[white] min-h-[64px] h-full flex gap-4">
+        <div class="bg-[white] min-h-[64px] h-full flex gap-7">
           <div class="w-[27px] bg-[#CCAD7B]"></div>
           <div class="w-[54px] bg-[#CCAD7B]"></div>
           <div class="w-[68px] bg-[#CCAD7B]"></div>
           <div class="w-[95px] bg-[#CCAD7B]"></div>
           <div class="flex-[1_1_auto] bg-[#CCAD7B]"></div>
+        </div>
+      </div>
+      <div class="max-w-[1300px] w-full mx-auto px-6 flex gap-8">
+        <div>
+          <img src="~/assets/images/image_13.png" alt="" />
+          <div class="flex gap-4 items-center py-5">
+            <img src="~/assets/images/threediffline.png" alt="" />
+            <p>Dom Perignon x Lady Gaga</p>
+          </div>
+        </div>
+        <div class="flex-[1_1_auto] flex justify-between">
+          <div class="max-w-[274px] w-full">
+            <img src="~/assets/images/image_14.png" alt="" />
+            <div class="flex gap-4 items-center py-5">
+              <img src="~/assets/images/oneline.png" alt="" />
+              <p>Легендарные аксессуары Riedel теперь в Казахстане!</p>
+            </div>
+          </div>
+          <div class="max-w-[274px] mt-[80px] w-full">
+            <img src="~/assets/images/image_15.png" alt="" />
+            <div class="flex gap-4 items-center py-5">
+              <img src="~/assets/images/oneline.png" alt="" />
+              <p>Устали от Кавы? Новая категория игристых вин Испании</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative max-w-[1300px] w-full mx-auto my-6 px-6 flex gap-8">
+        <div>
+          <img src="~/assets/images/image_17.png" alt="" />
+          <div class="flex gap-4 items-center py-5">
+            <img src="~/assets/images/threediffline.png" alt="" />
+            <p>AIN Asia Awards</p>
+          </div>
+        </div>
+        <div class="absolute right-0 bottom-[0px]">
+          <img src="~/assets/images/image_16.png" alt="" />
+          <div class="flex gap-4 items-center py-5">
+            <img src="~/assets/images/threediffline.png" alt="" />
+            <p>Новинка Винокурни Ardbeg</p>
+          </div>
         </div>
       </div>
     </main>
