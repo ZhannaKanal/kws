@@ -57,7 +57,7 @@
             class="absolute w-full bg-[#CCAD7B] max-h-[529px] h-full right-0 top-0 z-[-1]"
           ></div>
           <div class="max-w-[600px] w-full">
-            <img src="~/assets/images/first_second.png" alt="" />
+            <img src="~/assets/images/first_second.png" draggable="false" alt="" />
             <p class="text-[30px] py-5 font-light font-[]">БРЕНДЫ</p>
             <p class="text-[#A1A1A1] py-4">
               №1 по импорту тихих и игристых вин
@@ -127,7 +127,7 @@
             >
               Ознакомиться
             </button>
-            <img class="" src="~/assets/images/third_second.png" alt="" />
+            <img class="" src="~/assets/images/third_second.png" draggable="false" alt="" />
           </div>
           <div
             class="absolute w-full bg-[#CCAD7B] max-h-[800px] h-full right-0 bottom-[97px] z-[-1]"
@@ -146,7 +146,7 @@
             class="absolute bg-[#CCAD7B] w-full max-h-[800px] h-full left-0 z-[-1]"
           ></div>
           <div class="relative z-2 max-w-[600px] w-full">
-            <img class="" src="~/assets/images/fourth_second.png" alt="" />
+            <img class="" src="~/assets/images/fourth_second.png" draggable="false" alt="" />
             <div class="flex flex-col items-end">
               <p class="text-[30px] py-5 font-light font-[]">КУЛЬТУРА ВИНА</p>
               <p class="text-[#A1A1A1] py-4">Тандем вина и модного бренда</p>
@@ -178,24 +178,24 @@
       </div>
       <div class="max-w-[1300px] w-full mx-auto px-6 flex gap-8">
         <div>
-          <img src="~/assets/images/image_13.png" alt="" />
+          <img src="~/assets/images/image_13.png" draggable="false" alt="" />
           <div class="flex gap-4 items-center py-5">
-            <img src="~/assets/images/threediffline.png" alt="" />
+            <img src="~/assets/images/threediffline.png" draggable="false" alt="" />
             <p>Dom Perignon x Lady Gaga</p>
           </div>
         </div>
         <div class="flex-[1_1_auto] flex justify-between">
           <div class="max-w-[274px] w-full">
-            <img src="~/assets/images/image_14.png" alt="" />
+            <img src="~/assets/images/image_14.png" draggable="false" alt="" />
             <div class="flex gap-4 items-center py-5">
-              <img src="~/assets/images/oneline.png" alt="" />
+              <img src="~/assets/images/oneline.png" draggable="false" alt="" />
               <p>Легендарные аксессуары Riedel теперь в Казахстане!</p>
             </div>
           </div>
           <div class="max-w-[274px] mt-[80px] w-full">
-            <img src="~/assets/images/image_15.png" alt="" />
+            <img src="~/assets/images/image_15.png" draggable="false" alt="" />
             <div class="flex gap-4 items-center py-5">
-              <img src="~/assets/images/oneline.png" alt="" />
+              <img src="~/assets/images/oneline.png" draggable="false" alt="" />
               <p>Устали от Кавы? Новая категория игристых вин Испании</p>
             </div>
           </div>
@@ -203,16 +203,16 @@
       </div>
       <div class="relative max-w-[1300px] w-full mx-auto my-6 px-6 flex gap-8">
         <div>
-          <img src="~/assets/images/image_17.png" alt="" />
+          <img src="~/assets/images/image_17.png" draggable="false" alt="" />
           <div class="flex gap-4 items-center py-5">
-            <img src="~/assets/images/threediffline.png" alt="" />
+            <img src="~/assets/images/threediffline.png" draggable="false" alt="" />
             <p>AIN Asia Awards</p>
           </div>
         </div>
         <div class="absolute right-6 bottom-[0px]">
-          <img src="~/assets/images/image_16.png" alt="" />
+          <img src="~/assets/images/image_16.png" draggable="false" alt="" />
           <div class="flex gap-4 items-center py-5">
-            <img src="~/assets/images/threediffline.png" alt="" />
+            <img src="~/assets/images/threediffline.png" draggable="false" alt="" />
             <p>Новинка Винокурни Ardbeg</p>
           </div>
         </div>
@@ -242,7 +242,7 @@
         <img src="~/assets/images/KWS.png" draggable="false" alt="" />
       </div>
       <div class="max-w-[1300px] w-full mx-auto grid grid-cols-3 items-center">
-        <img class="w-[460px]" src="~/assets/images/line_footer.png" alt="" />
+        <img class="w-[460px]" src="~/assets/images/line_footer.png" draggable="false" alt="" />
         <div class="flex gap-6 justify-center">
           <p class="text-[white]">СЛЕДИТЕ ЗА НАМИ</p>
           <a href=""
@@ -252,7 +252,7 @@
             <img src="~/assets/images/insta.png" draggable="false" alt=""
           /></a>
         </div>
-        <img class="w-[460px]" src="~/assets/images/line_footer.png" alt="" />
+        <img class="w-[460px]" src="~/assets/images/line_footer.png" draggable="false" alt="" />
       </div>
       <div class="max-w-[1300px] w-full mx-auto py-6 flex justify-between">
         <p class="text-[#585858]">Все права защищены 2021</p>
