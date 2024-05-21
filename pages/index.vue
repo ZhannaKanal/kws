@@ -209,7 +209,7 @@
             <p>AIN Asia Awards</p>
           </div>
         </div>
-        <div class="absolute right-0 bottom-[0px]">
+        <div class="absolute right-6 bottom-[0px]">
           <img src="~/assets/images/image_16.png" alt="" />
           <div class="flex gap-4 items-center py-5">
             <img src="~/assets/images/threediffline.png" alt="" />
@@ -217,8 +217,27 @@
           </div>
         </div>
       </div>
+      <div
+        class="max-w-[1300px] w-full max-h-[80px] h-full my-[80px] mx-auto px-6 flex justify-between bg-[#C49955] text-[16px] text-[#FFFFFF]"
+      >
+        <img src="~/assets/images/threeline.png" draggable="false" alt="" />
+        <div class="flex justify-between items-center gap-12">
+          <img src="~/assets/images/brut.png" draggable="false" alt="" />
+          <p class="items-center">
+            BRUT - это проект крупнейшей дистрибьюторской<br />
+            компании Kazakhstan Wines & Spirits.
+          </p>
+          <button
+            class="px-[120px] py-[15px] border-[1px] border-solid border-[#FFFFFF] rounded-[2px] font-light hover:bg-[white] hover:text-[#C49955] duration-200"
+            type="button"
+          >
+            Перейти
+          </button>
+        </div>
+        <img src="~/assets/images/threeline.png" draggable="false" alt="" />
+      </div>
     </main>
-    <!-- <footer class="bg-[#222222] text-[16px]">
+    <footer class="bg-[#222222] text-[16px]">
       <div class="flex justify-center py-10">
         <img src="~/assets/images/KWS.png" draggable="false" alt="" />
       </div>
@@ -239,6 +258,6 @@
         <p class="text-[#585858]">Все права защищены 2021</p>
         <p class="text-[#585858]">Разработано Digital Agency Nidge</p>
       </div>
-    </footer> -->
+    </footer>
   </div>
 </template>
