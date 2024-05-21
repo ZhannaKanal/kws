@@ -110,6 +110,72 @@
           </div>
         </div>
       </div>
+      <div class="grid grid-cols-2 gap-[50px]">
+        <div class="relative pt-9 flex-[1_1_auto] flex justify-end">
+          <div class="max-w-[600px] w-full">
+            <p class="text-[30px] font-light font-[]">Философия компании</p>
+            <p class="text-[#A1A1A1] py-7">Тандем вина и модного бренда</p>
+            <p>
+              Наша работа связана с уникальными продуктами. Вина и спиртные
+              напитки ассоциируются с праздником, эмоциями, весельем и радостью.
+              <br />Поэтому мы стремимся к совершенству, гарантируя высокое
+              качество и эксклюзивность нашей продукции.
+            </p>
+            <button
+              class="my-[65px] px-[110px] py-[15px] border-[1px] border-solid border-[#C1C1C1] rounded-[2px] font-light hover:bg-[#010101] hover:border-[#010101] hover:text-[white] duration-200"
+              type="button"
+            >
+              Ознакомиться
+            </button>
+            <img class="" src="~/assets/images/third_second.png" alt="" />
+          </div>
+          <div
+            class="absolute w-full bg-[#CCAD7B] max-h-[800px] h-full right-0 bottom-[97px] z-[-1]"
+          ></div>
+        </div>
+        <div class="relative flex-[1_1_auto]">
+          <div class="max-w-[600px] w-full">
+            <button
+              class="mt-9 mb-[50px] px-[110px] py-[15px] border-[1px] border-solid border-[#C1C1C1] rounded-[2px] font-light hover:bg-[#010101] hover:border-[#010101] hover:text-[white] duration-200"
+              type="button"
+            >
+              Ознакомиться
+            </button>
+          </div>
+          <div
+            class="absolute bg-[#CCAD7B] w-full max-h-[800px] h-full left-0 z-[-1]"
+          ></div>
+          <div class="relative z-2 max-w-[600px] w-full">
+            <img class="" src="~/assets/images/fourth_second.png" alt="" />
+            <div class="flex flex-col items-end">
+              <p class="text-[30px] py-5 font-light font-[]">КУЛЬТУРА ВИНА</p>
+              <p class="text-[#A1A1A1] py-4">Тандем вина и модного бренда</p>
+              <p>
+                Наша миссия - развитие винной культуры Казахстана <br />
+                и создание новых трендов.
+              </p>
+              <button
+                class="mt-[50px] px-[110px] py-[15px] border-[1px] border-solid border-[#C1C1C1] rounded-[2px] font-light hover:bg-[#010101] hover:border-[#010101] hover:text-[white] duration-200"
+                type="button"
+              >
+                Ознакомиться
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="max-w-[1300px] w-full mx-auto my-8 px-6 flex gap-[100px] items-center"
+      >
+        <p class="text-[30px] font-light">СОБЫТИЯ</p>
+        <div class="bg-[white] min-h-[64px] h-full flex gap-4">
+          <div class="w-[27px] bg-[#CCAD7B]"></div>
+          <div class="w-[54px] bg-[#CCAD7B]"></div>
+          <div class="w-[68px] bg-[#CCAD7B]"></div>
+          <div class="w-[95px] bg-[#CCAD7B]"></div>
+          <div class="flex-[1_1_auto] bg-[#CCAD7B]"></div>
+        </div>
+      </div>
     </main>
     <!-- <footer class="bg-[#222222] text-[16px]">
       <div class="flex justify-center py-10">
