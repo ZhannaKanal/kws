@@ -20,7 +20,7 @@
           <div
             class="max-w-[1300px] w-full mx-auto px-[210px] hidden block lg:flex gap-[80px] justify-between py-2 text-[16px] text-[white] font-light font-[]"
           >
-            <nuxt-link to="/about"
+            <nuxt-link to="/member"
               ><p class="hover:text-[#7F7F7F]">О нас</p></nuxt-link
             >
             <nuxt-link to="/service"
