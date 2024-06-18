@@ -2,7 +2,7 @@
   <div class="uppercase block lg:flex gap-8">
     <div class="hidden lg:block max-w-[32px] w-full">
       <p class="mx-2">
-        <nuxt-icon :name="iconName" filled class="w-[30px] h-[30px]" />
+        <nuxt-icon :name="block.iconName" filled class="w-[30px] h-[30px]" />
       </p>
       <div class="w-[1px] mx-auto h-[160px] h-full bg-[black]"></div>
     </div>
@@ -11,18 +11,18 @@
     >
       <div class="max-w-[500px] w-full h-[2px] bg-[black]"></div>
       <p class="mx-2">
-        <nuxt-icon :name="iconName" filled class="w-[30px] h-[30px]" />
+        <nuxt-icon :name="block.iconName" filled class="w-[30px] h-[30px]" />
       </p>
       <div class="max-w-[500px] w-full h-[2px] bg-[black]"></div>
     </div>
     <div class="text-center lg:text-start">
       <div class="">
-        <p class="text-[16px] font-bold">{{ firstTitle }}</p>
-        <p class="text-[18px] font-light py-3">{{ mediaContact }}</p>
+        <p class="text-[16px] font-bold">{{ block.firstTitle }}</p>
+        <p class="text-[18px] font-light py-3">{{ block.mediaContact }}</p>
       </div>
       <div class="mt-12">
-        <p class="text-[16px] font-bold">{{ secondTitle }}</p>
-        <p class="text-[18px] font-light py-3">{{ proposalsContact }}</p>
+        <p class="text-[16px] font-bold">{{ block.secondTitle }}</p>
+        <p class="text-[18px] font-light py-3">{{ block.proposalsContact }}</p>
       </div>
     </div>
   </div>
@@ -33,26 +33,11 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   props: {
-    iconName: {
-      type: String,
+    block: {
+      type: Object,
       required: true,
     },
-    firstTitle: {
-      type: String,
-      required: true,
-    },
-    secondTitle: {
-      type: String,
-      required: true,
-    },
-    mediaContact: {
-      type: String,
-      required: true,
-    },
-    proposalsContact: {
-      type: String,
-      required: true,
-    },
+    
   },
 });
 </script>

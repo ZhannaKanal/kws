@@ -68,7 +68,9 @@
     </div>
   </div>
   <div class="relative mb-10">
-    <div class="absolute max-w-[500px] lg:max-w-[300px] w-full bg-[#CCAD7B] max-h-[360px] h-full right-0 bottom-0 z-[-1] "></div>
+    <div
+      class="absolute max-w-[500px] lg:max-w-[300px] w-full bg-[#CCAD7B] max-h-[360px] h-full right-0 bottom-0 z-[-1]"
+    ></div>
     <div class="max-w-[1280px] w-full mx-auto block lg:flex gap-[80px]">
       <div class="flex-[1_1_auto]">
         <p class="font-light text-[24px]">
@@ -81,10 +83,12 @@
           <br />
           любимые вина и крепкие напитки партнеров по бизнесу.
         </p>
-        <div class="block lg:flex gap-12 ">
+        <div class="block lg:flex gap-12">
           <img src="~/assets/images/image_59.png" alt="" />
-          <div class="max-w-[200px] lg:w-[1px] h-[1px] lg:min-h-[188px] bg-[#CCAD7B] my-6 lg:my-0"></div>
-          <div >
+          <div
+            class="max-w-[200px] lg:w-[1px] h-[1px] lg:min-h-[188px] bg-[#CCAD7B] my-6 lg:my-0"
+          ></div>
+          <div>
             <p class="text-[24px] font-light">Саят оразов</p>
             <p class="text-[#747474] py-6 text-center lg:text-start">
               “Выбор отличного вина? <br />
@@ -106,12 +110,20 @@
           <div class="flex-[1_1_auto] bg-[black]"></div>
         </div>
       </div>
-      <img class="min-h-[360px] h-full pt-2 pb-4 lg:pb-0 mx-auto" src="~/assets/images/image_62.png" alt="">
+      <img
+        class="min-h-[360px] h-full pt-2 pb-4 lg:pb-0 mx-auto"
+        src="~/assets/images/image_62.png"
+        alt=""
+      />
     </div>
   </div>
   <div>
-    
-
+    <ContactForm @clicked="receiveData" />
+    <div>
+      <div>
+        <p>fullName: {{ data.fullname }}</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -122,7 +134,23 @@ export default {
       layout: "contacts",
     });
 
-    return {};
+    const data = reactive(
+      {
+      fullname: "",
+      number: "",
+      catalog: "",
+    }
+    );
+
+    const receiveData = (formData) => {
+      data.fullname = formData.fullname
+      data.number = formData.number
+      data.catalog = formData.catalog
+
+      console.table(data)
+    };
+
+    return { receiveData, data };
   },
 };
 </script>

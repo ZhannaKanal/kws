@@ -34,7 +34,7 @@
           <nuxt-link to="/event"
             ><p class="hover:text-[#7F7F7F]">События</p></nuxt-link
           >
-          <nuxt-link to="/contact"
+          <nuxt-link to="/contacts"
             ><p class="hover:text-[#7F7F7F]">Контакты</p></nuxt-link
           >
           <div class="flex gap-2 items-center hover:text-[#7F7F7F]">

@@ -26,12 +26,9 @@
       class="bg-[] max-w-[1250px] w-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
     >
       <ContactBlock
-        v-for="block in contactBlocks"
-        :iconName="block.iconName"
-        :firstTitle="block.firstTitle"
-        :secondTitle="block.secondTitle"
-        :mediaContact="block.mediaContact"
-        :proposalsContact="block.proposalsContact"
+        v-for="(block, index) in contactBlocks"
+        :key="index"
+        :block="block"
       />
     </div>
     <div class="max-w-[1280px] w-full mx-auto min-h-[320px] h-full px-4 my-12">
@@ -84,8 +81,8 @@ export default {
         iconName: "001/004",
         firstTitle: "СМИ и партнерам",
         secondTitle: "Для предложений",
-        mediaContact: "hobbsandshow@mail.ru",
-        proposalsContact: "hobbsandshow@mail.com",
+        mediaContact: "+87773652418",
+        proposalsContact: "87754123598",
       },
       {
         iconName: "001/005",
