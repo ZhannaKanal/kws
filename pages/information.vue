@@ -130,7 +130,7 @@ export default {
     });
     const getInfo = async () => {
       await axios
-        .get("https://pma.kws.kz/api/brands/358")
+        .get("https://pma.kws.kz/api/brands/252")
         .then(function (response) {
           infoList.value = response.data;
           console.log(infoList.value);
