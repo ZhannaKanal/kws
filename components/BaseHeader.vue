@@ -23,19 +23,19 @@
           class="max-w-[1300px] w-full mx-auto px-[210px] hidden block lg:flex gap-[80px] justify-between py-2 text-[16px] text-[white] font-light font-[]"
         >
           <nuxt-link to="/member"
-            ><p class="hover:text-[#7F7F7F]">О нас</p></nuxt-link
+            ><p class="hover:text-[#7F7F7F]">{{$t('about')}}</p></nuxt-link
           >
-          <nuxt-link to="/contacts"
-            ><p class="hover:text-[#7F7F7F]">Услуги</p></nuxt-link
+          <nuxt-link to="/corporative"
+            ><p class="hover:text-[#7F7F7F]">{{$t('services')}}</p></nuxt-link
           >
-          <nuxt-link to="/brand"
-            ><p class="hover:text-[#7F7F7F]">Бренды</p></nuxt-link
+          <nuxt-link to="/brands"
+            ><p class="hover:text-[#7F7F7F]">{{$t('brands')}}</p></nuxt-link
           >
           <nuxt-link to="/event"
-            ><p class="hover:text-[#7F7F7F]">События</p></nuxt-link
+            ><p class="hover:text-[#7F7F7F]">{{$t('event')}}</p></nuxt-link
           >
           <nuxt-link to="/contacts"
-            ><p class="hover:text-[#7F7F7F]">Контакты</p></nuxt-link
+            ><p class="hover:text-[#7F7F7F]">{{$t('contacts')}}</p></nuxt-link
           >
           <div class="flex gap-2 items-center hover:text-[#7F7F7F]">
             <p>RU</p>
@@ -57,12 +57,16 @@
       </p>
     </div>
   </header>
+  
 </template>
 
 <script>
+import { useI18n } from 'vue-i18n';
 export default {
+  name: 'BaseHeader',
   setup() {
-    return {};
+    const {t} = useI18n({useScope: 'global'})
+    return {t};
   },
 };
 </script>

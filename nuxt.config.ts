@@ -11,6 +11,7 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }));
       });
     },
+    "@nuxtjs/i18n"
   ],
   build: {
     transpile: ["vuetify"],
@@ -22,4 +23,7 @@ export default defineNuxtConfig({
       },
     },
   },
+  i18n: {
+    vueI18n: './i18n/index.js',
+  }
 });

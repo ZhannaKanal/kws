@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-[#222222] py-4">
-    <div class="max-w-[1280px] w-full mx-auto bg-[] flex justify-between items-center">
-      <img class="mx-auto lg:mx-0" src="~assets/images/image_100.png" alt="" />
+  <div class="fixed top-0 left-0 bg-[black]">
+    <div class="max-w-[1280px] w-full mx-auto bg-[white] h-[200px] h-full">
+      <img src="~assets/images/image_100.png" alt="" />
       <div
         class="max-w-[1300px] w-full mx-auto px-[210px] hidden block lg:flex gap-[80px] justify-between py-2 text-[16px] text-[white] font-light font-[]"
       >
@@ -37,11 +37,6 @@
 <script>
 export default {
   setup() {
-    definePageMeta({
-      layout: "",
-      middleware: "",
-    });
-
     return {};
   },
 };
