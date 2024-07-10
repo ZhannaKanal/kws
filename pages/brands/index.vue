@@ -172,4 +172,3 @@
   
   <style lang="scss" scoped></style>
   
-  https://pma.kws.kz/api/brands/252

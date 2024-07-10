@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { acceptHMRUpdate } from "pinia";
 import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -11,7 +12,9 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }));
       });
     },
-    "@nuxtjs/i18n"
+    "@nuxtjs/i18n",
+    'vue3-carousel-nuxt',
+    '@pinia/nuxt',
   ],
   build: {
     transpile: ["vuetify"],
@@ -25,5 +28,8 @@ export default defineNuxtConfig({
   },
   i18n: {
     vueI18n: './i18n/index.js',
+  },
+  imports: {
+    dirs: ['stores'], // Example placement, adjust based on actual usage
   }
 });

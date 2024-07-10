@@ -82,7 +82,13 @@
       </div>
     </div>
     <div class="my-12">
-      <v-sheet class="mx-auto" max-width="1440">
+      <carousel :items-to-show="1.5">
+        <slide v-for="slide in 10" :key="slide">
+          {{ slide }}
+        </slide>
+       
+      </carousel>
+      <!-- <v-sheet class="mx-auto" max-width="1440">
         <v-slide-group class="pa-4" selected-class="bg-success">
           <v-slide-group-item
             v-for="product in brandData.products"
@@ -102,7 +108,7 @@
             </v-card>
           </v-slide-group-item>
         </v-slide-group>
-      </v-sheet>
+      </v-sheet> -->
     </div>
   </div>
   <div v-if="loader" class="flex justify-center items-center min-h-[400px]">
