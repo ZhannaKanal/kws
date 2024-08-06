@@ -30,6 +30,6 @@ export default defineNuxtConfig({
     vueI18n: './i18n/index.js',
   },
   imports: {
-    dirs: ['stores'], // Example placement, adjust based on actual usage
+    dirs: ['store'], // Example placement, adjust based on actual usage
   }
 });
